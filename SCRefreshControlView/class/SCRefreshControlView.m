@@ -180,6 +180,7 @@ static NSString* const kRotationAnimation = @"RotationAnimation";
     rotationAnimation.repeatCount = 1;
     rotationAnimation.speed = 1.0f;
     rotationAnimation.delegate = self;
+    rotationAnimation.removedOnCompletion = YES;
     
     return rotationAnimation;
 }
