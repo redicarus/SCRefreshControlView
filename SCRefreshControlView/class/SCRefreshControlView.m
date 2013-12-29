@@ -154,6 +154,8 @@ static NSString* const kRotationAnimation = @"RotationAnimation";
     rectLayer.backgroundColor = self.tintColor.CGColor;
     rectLayer.frame = (CGRect){-1, -3, 2, 6};
     rectLayer.anchorPoint = (CGPoint){0.5, 2.0};
+    rectLayer.allowsEdgeAntialiasing = YES;
+    rectLayer.cornerRadius = 1.0f;
     
     return rectLayer;
 }
