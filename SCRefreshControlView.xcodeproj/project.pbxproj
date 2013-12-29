@@ -19,6 +19,8 @@
 		29338AFD18701F73000D229C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29338AE518701F72000D229C /* UIKit.framework */; };
 		29338B0518701F73000D229C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29338B0318701F73000D229C /* InfoPlist.strings */; };
 		29338B0718701F73000D229C /* SCRefreshControlViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29338B0618701F73000D229C /* SCRefreshControlViewTests.m */; };
+		29338B1318701FA2000D229C /* SCRefreshControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29338B1218701FA2000D229C /* SCRefreshControlView.m */; };
+		29338B1618702028000D229C /* SCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29338B1518702028000D229C /* SCViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		29338B0218701F73000D229C /* SCRefreshControlViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SCRefreshControlViewTests-Info.plist"; sourceTree = "<group>"; };
 		29338B0418701F73000D229C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		29338B0618701F73000D229C /* SCRefreshControlViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCRefreshControlViewTests.m; sourceTree = "<group>"; };
+		29338B1118701FA2000D229C /* SCRefreshControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCRefreshControlView.h; sourceTree = "<group>"; };
+		29338B1218701FA2000D229C /* SCRefreshControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCRefreshControlView.m; sourceTree = "<group>"; };
+		29338B1418702028000D229C /* SCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCViewController.h; sourceTree = "<group>"; };
+		29338B1518702028000D229C /* SCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +113,11 @@
 		29338AE718701F72000D229C /* SCRefreshControlView */ = {
 			isa = PBXGroup;
 			children = (
+				29338B1018701FA2000D229C /* class */,
 				29338AF018701F72000D229C /* SCAppDelegate.h */,
 				29338AF118701F72000D229C /* SCAppDelegate.m */,
+				29338B1418702028000D229C /* SCViewController.h */,
+				29338B1518702028000D229C /* SCViewController.m */,
 				29338AF318701F72000D229C /* Images.xcassets */,
 				29338AE818701F72000D229C /* Supporting Files */,
 			);
@@ -142,6 +151,15 @@
 				29338B0318701F73000D229C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29338B1018701FA2000D229C /* class */ = {
+			isa = PBXGroup;
+			children = (
+				29338B1118701FA2000D229C /* SCRefreshControlView.h */,
+				29338B1218701FA2000D229C /* SCRefreshControlView.m */,
+			);
+			path = class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,7 +258,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29338B1318701FA2000D229C /* SCRefreshControlView.m in Sources */,
 				29338AF218701F72000D229C /* SCAppDelegate.m in Sources */,
+				29338B1618702028000D229C /* SCViewController.m in Sources */,
 				29338AEE18701F72000D229C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
