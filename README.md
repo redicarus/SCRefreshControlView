@@ -5,4 +5,4 @@ A iOS7 style refresh control view for timing control and support for early versi
 
 Demo: 
 
-![Demo](http://ww4.sinaimg.cn/large/84efdcc6tw1ec0rdljae7g20hs0vk7ox.gif)
+![Demo](http://ww3.sinaimg.cn/mw690/84efdcc6tw1ec0yg5xrwkg20d40ngn9y.gif)
