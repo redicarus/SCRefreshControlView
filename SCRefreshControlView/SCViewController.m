@@ -21,7 +21,7 @@ static CGFloat const kTableViewBeginLoadingOffset = 80.0f;
 @end
 
 @implementation SCViewController
-
+//testred
 - (void)loadView {
     [super loadView];
     
